@@ -1343,7 +1343,7 @@ select.style2 {
 
 textarea.form-control,
 textarea {
-    min-height: 150px;
+    min-height: 120px;
     padding: 25px 20px
 }
 
@@ -1353,7 +1353,7 @@ textarea.style2 {
 }
 
 .form-group {
-    margin-bottom: var(--bs-gutter-x);
+    margin-bottom: 16px;
     position: relative
 }
 
@@ -1862,7 +1862,7 @@ textarea.is-invalid {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: var(--title-color)
+   
 }
 
 .th-menu-wrapper .mobile-logo a img {
@@ -7146,7 +7146,7 @@ select,
 .form-select,
 textarea,
 input {
-    height: 55px;
+    height: 50px;
     padding: 0 25px 0 25px;
     padding-right: 45px;
     border: 1px solid var(--border-color);
@@ -7999,7 +7999,7 @@ blockquote.has-text-align-right,
 }
 
 .main-menu>ul>li>a {
-    padding: 36px 14px;
+    padding: 32px 14px;
     color: var(--title-color)
 }
 
@@ -8659,8 +8659,8 @@ blockquote.has-text-align-right,
     }
 
     .header-layout1 .header-logo img {
-        max-height: 80px;
-        max-width: 160px
+        max-height: 103px;
+        max-width: 300px
     }
 }
 
@@ -16574,7 +16574,7 @@ span.select2-selection.select2-selection--single:focus {
     position: relative;
     background-color: #F3F3F3;
     overflow: hidden;
-    padding: 40px 60px 60px 60px
+    padding: 38px;
 }
 
 @media (max-width: 767px) {
@@ -31829,7 +31829,7 @@ hr.style1 {
 
 .feature-media_text {
     margin-bottom: -0.5em;
-    color: #8b8e95
+    color: #ffff
 }
 
 .feature-media:last-child {
@@ -33920,17 +33920,16 @@ hr.style1 {
 
 .footer-layout4 {
     background-color: #161921;
-    --body-color: #8b8e95;
+    --body-color: #ffff;
     overflow: hidden
 }
 
 .footer-layout4 .footer-text {
-    color: #8b8e95
+    color: #ffff
 }
 
 .footer-layout4 .widget-area {
     padding-top: var(--section-space);
-    padding-bottom: 75px
 }
 
 .footer-layout4 .copyright-wrap {
@@ -34030,7 +34029,7 @@ hr.style1 {
 }
 
 .footer-widget {
-    --gray-color: #8b8e95
+    --gray-color: #ffff
 }
 
 @media (max-width: 1199px) {
@@ -34459,7 +34458,7 @@ hr.style1 {
 }
 
 .hero-style7 .hero-subtitle {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 30px;
     margin-top: -0.18em
@@ -34498,8 +34497,8 @@ hr.style1 {
     }
 
     .hero-style7 .hero-title {
-        font-size: 50px;
-        line-height: 1.18
+        font-size: 43px;
+        line-height: 1.19
     }
 }
 
@@ -34557,12 +34556,12 @@ hr.style1 {
 }
 
 .appointment-form-2 {
-    max-width: 594px;
+    max-width: 527px;
     background-color: var(--white-color);
     box-shadow: 0px 10px 20px rgba(128, 134, 149, 0.1);
-    padding: 40px;
+    padding: 30px;
     position: absolute;
-    bottom: 310px;
+    bottom: 270px;
     right: 40px;
     z-index: 2
 }
@@ -34596,7 +34595,7 @@ hr.style1 {
 }
 
 .appointment-form-2 .title-area .sec-title {
-    font-size: 45px
+    font-size: 30px
 }
 
 @media (max-width: 1199px) {
@@ -34712,7 +34711,7 @@ hr.style1 {
         flex-direction: column;
         text-align: center;
         gap: 20px;
-        padding: 80px 30px
+        padding: 50px 30px
     }
 
     .feature-card_number {
@@ -34774,18 +34773,16 @@ hr.style1 {
 
 .footer-layout7 {
     background-color: var(--title-color2);
-    --body-color: #8b8e95;
+    --body-color: #ffff;
     overflow: hidden
 }
 
 .footer-layout7 .copyright-wrap {
-    padding: 30px 0;
+    padding: 5px 0;
     border-top: 1px solid #2A2F3D
 }
 
-.footer-layout7 {
-    padding-top: 124px
-}
+
 
 .footer-layout7 .copyright-wrap {
     border-top: none;
@@ -37216,7 +37213,7 @@ hr.style1 {
 }
 
 .footer-layout5 {
-    --body-color: #8b8e95
+    --body-color: #ffff
 }
 
 .footer-layout5 .widget-area {
@@ -37240,7 +37237,7 @@ hr.style1 {
 }
 
 .footer-layout5 .footer-text {
-    color: #8b8e95
+    color: #ffff
 }
 
 .th-widget-schedule {
