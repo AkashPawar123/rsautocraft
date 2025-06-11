@@ -219,7 +219,7 @@ h1 {
 
 .h2,
 h2 {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 1.227
 }
 
@@ -251,7 +251,7 @@ h6 {
 
     .h1,
     h1 {
-        font-size: 48px
+        font-size: 40px
     }
 }
 
@@ -1343,7 +1343,7 @@ select.style2 {
 
 textarea.form-control,
 textarea {
-    min-height: 120px;
+    min-height: 110px;
     padding: 25px 20px
 }
 
@@ -2528,11 +2528,10 @@ textarea.is-invalid {
     background-color: var(--theme-color);
     color: var(--white-color);
     position: relative;
-    padding: 17px 36px;
+    padding: 15px 28px;
     font-weight: 600;
     font-size: 16px;
     line-height: 26px;
-    text-transform: uppercase;
     z-index: 2;
     border-radius: 4px;
     display: -webkit-inline-box;
@@ -8531,7 +8530,7 @@ blockquote.has-text-align-right,
 
 @media (max-width: 1499px) {
     .header-layout1 .main-menu {
-        margin-left: -60px
+        margin-left: 100px
     }
 }
 
@@ -16574,7 +16573,7 @@ span.select2-selection.select2-selection--single:focus {
     position: relative;
     background-color: #F3F3F3;
     overflow: hidden;
-    padding: 38px;
+    padding: 30px;
 }
 
 @media (max-width: 767px) {
@@ -16728,7 +16727,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .contact-form textarea.form-control {
-    min-height: 150px;
+    min-height: 138px;
     padding: 12px 25px 0 25px;
     padding-left: 45px
 }
@@ -23998,7 +23997,7 @@ hr.style1 {
     font-weight: 600;
     border: none;
     background-color: transparent;
-    padding: 27px 40px;
+    padding: 22px 32px;
     margin-bottom: -1px;
     width: 100%;
     text-align: left;
@@ -34435,7 +34434,7 @@ hr.style1 {
 .hero-style7 {
     position: relative;
     z-index: 3;
-    padding: 245px 0
+    padding: 225    px 0
 }
 
 .hero-style7 .btn-group {
@@ -34448,7 +34447,7 @@ hr.style1 {
 
 .hero-style7 .hero-title {
     color: var(--white-color);
-    font-size: 62px;
+    font-size: 46px;
     line-height: 1.167;
     margin-bottom: 0
 }
@@ -34556,7 +34555,7 @@ hr.style1 {
 }
 
 .appointment-form-2 {
-    max-width: 527px;
+    max-width: 465px;
     background-color: var(--white-color);
     box-shadow: 0px 10px 20px rgba(128, 134, 149, 0.1);
     padding: 30px;
@@ -34586,9 +34585,6 @@ hr.style1 {
     border-right: 1px solid var(--theme-color)
 }
 
-.appointment-form-2 .th-btn {
-    width: 100%
-}
 
 .appointment-form-2 .th-btn:hover:before {
     height: 600%
@@ -34636,7 +34632,7 @@ hr.style1 {
     align-items: center;
     gap: 30px;
     background-color: var(--smoke-color);
-    padding: 80px 60px;
+    padding: 50px 34px;
     border-right: 1px solid #E3E3E3;
     position: relative;
     -webkit-transition: 0.4s ease-in-out;
