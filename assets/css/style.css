@@ -15,14 +15,14 @@
     --yellow-color: #FFB539;
     --success-color: #28a745;
     --error-color: #dc3545;
-    --border-color: #D2D2D2;
-    --title-font: 'Plus Jakarta Sans', sans-serif;
-    --body-font: 'Inter', sans-serif;
-    --style-font: 'Red Hat Display', cursive;
+    --border-color: #D2D2D2;  
+    --title-font: "Mulish", sans-serif;
+    --body-font: "Poppins", sans-serif;
+    --style-font:"Poppins", sans-serif;
     --icon-font: "Font Awesome 6 Pro";
     --main-container: 1290px;
     --container-gutters: 24px;
-    --section-space: 120px;
+    --section-space: 80px;
     --section-space-mobile: 80px;
     --section-title-space: 60px;
     --ripple-ani-duration: 5s
@@ -8622,10 +8622,10 @@ blockquote.has-text-align-right,
 }
 
 .header-layout1 .logo-bg:before {
-    background-color: var(--smoke-color2);
+  
     width: 100%;
     z-index: 2;
-    border-right: 2px solid var(--theme-color)
+  
 }
 
 .header-layout1.unittest-header .main-menu ul.sub-menu {
@@ -9609,7 +9609,7 @@ blockquote.has-text-align-right,
 }
 
 .copyright-text a {
-    color: var(--theme-color)
+    color: #fff
 }
 
 .copyright-text a:hover {
@@ -11201,8 +11201,8 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
 
 @media (max-width: 1500px) {
     .hero-title {
-        font-size: 80px;
-        line-height: 90px
+        font-size: 60px;
+        line-height: 70px
     }
 }
 
@@ -11250,7 +11250,7 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
 .hero-style1 {
     position: relative;
     z-index: 6;
-    padding: 240px 0;
+    padding: 130px 0;
     text-align: center
 }
 
@@ -11949,7 +11949,7 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
 
 @media (max-width: 1899px) {
     .hero-3 .th-hero-img {
-        margin: 143px 0% 0 30px
+        margin: 154px 0% 0 30px
     }
 }
 
@@ -12045,8 +12045,8 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
 
 .hero-style3 .hero-title {
     font-weight: 700;
-    font-size: 80px;
-    line-height: 100px;
+    font-size: 55px;
+    line-height: 65px;
     margin-bottom: 40px
 }
 
@@ -16573,7 +16573,7 @@ span.select2-selection.select2-selection--single:focus {
     position: relative;
     background-color: #F3F3F3;
     overflow: hidden;
-    padding: 30px;
+    padding: 40px;
 }
 
 @media (max-width: 767px) {
@@ -28146,6 +28146,7 @@ hr.style1 {
 .process-card_img img {
     width: 210px;
     height: 210px;
+    object-fit: cover;
     border-radius: 50%;
     -webkit-transition: 0.4s;
     transition: 0.4s
@@ -34429,6 +34430,9 @@ hr.style1 {
     .hero-slider-7 .slick-arrow {
         display: none !important
     }
+        .hero-style7 {
+        padding: 180px 0;
+    }
 }
 
 .hero-style7 {
@@ -38580,4 +38584,10 @@ hr.style1 {
     .blog-item .blog-meta a:last-child {
         margin-right: 0
     }
+}
+.header-logo img {
+    width: 299px;
+}
+.why-img img {
+    height: 175px;
 }
